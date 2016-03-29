@@ -1,0 +1,14 @@
+#include<stdioh.h>
+#include<math.h>
+
+int linearSearch(int array[]. int size, int key) {
+	// return either the index where they were found (1st 
+	//occurrence) or -1 to indicate that they key was not found
+	int x;
+	for(x = 0; x < size; x++) {
+		if(array[x] == key) {
+			return x;
+		}		
+	} // the for loop is over
+	return -1;
+}
